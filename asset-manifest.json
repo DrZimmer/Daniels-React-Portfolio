@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Daniels-React-Portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/Daniels-React-Portfolio/static/js/main.780d4f7b.js",
+    "static/media/logo.svg": "/Daniels-React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Daniels-React-Portfolio/index.html",
+    "main.073c9b0a.css.map": "/Daniels-React-Portfolio/static/css/main.073c9b0a.css.map",
+    "main.780d4f7b.js.map": "/Daniels-React-Portfolio/static/js/main.780d4f7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.780d4f7b.js"
+  ]
+}
