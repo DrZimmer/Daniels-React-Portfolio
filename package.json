@@ -2,9 +2,10 @@
   "name": "daniels-react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://drzimmer.github.io/Daniels-React-Portfolio",
+  "homepage": "https://DrZimmer.github.io/Daniels-React-Portfolio",
   "dependencies": {
     "cra-template": "1.1.3",
+    "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0"
