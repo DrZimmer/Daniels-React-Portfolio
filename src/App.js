@@ -1,45 +1,45 @@
-import Nav from './components/Nav';
-import About from './components/About';
-import Gallery from './components/Gallery';
-import ContactForm from './components/Contact';
-import { useState } from 'react/cjs/react.production.min';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
+import './index.css';
+import { useState } from 'react';
 
 function App() {
 
-  const [pages] = useState([
-    {
-      name: 'about me',
-      description: 'Photo of Daniel and information about who he is'
-    },
-    {
-      name: 'portfolio',
-      description: 'Browsing projects Daniel has completed'
-    },
-    {
-      name: 'contact me',
-      description: 'Contact form you can fill out so Daniel can get in touch with you'
-    },
-    {
-      name: 'resume',
-      description: 'Daniels professional resume'
-    },
-  ]);
+  const [currentPage, setCurrentPage] = useState("about");
 
-  const [currentPage, setCurrentPage] = useState(pages[0]);
+  const page = () => {
+		switch (currentPage) {
+			case "about":
+				return <About />;
+			case "portfolio":
+				return <Portfolio />;
+			case "contact":
+				return <Contact />;
+			case "resume":
+				return <Resume />;
+			default:
+				return null;
+		}
+	};
+
 
   return (
-    <div className="App">
-      <Nav 
-        pages = {pages}
-        setCurrentPage = {setCurrentPage}
-        currentPage = {currentPage}
-      ></Nav>
-      <main>
-        <Page currentPage = {currentPage}></Page>
-      </main>
-      <Footer/>
-    </div>
-  );
+		<div>
+			<div>
+				<Header currentPage={currentPage} setCurrentPage={setCurrentPage}></Header>
+			</div>
+			<div>
+				<main>{page()}</main>
+			</div>
+			<div>
+				<Footer></Footer>
+			</div>
+		</div>
+	);
 }
 
 export default App;

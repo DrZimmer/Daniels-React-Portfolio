@@ -1,12 +1,13 @@
 import React from 'react'
-//TODO import coverImage from "../../assets/cover/cover-image.jpg"; get my own
+import coverImage from '../../assets/images/daddy_daughter.jpg'
+import '../../index.css'
 
 function About() {
 
   return (
-    <section className="my-5" >
-      <h1 id="about">Who am I?</h1>
-      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+    <section className="my-1 " style={{ textAlign: "center" }}>
+      <h1 id="about">Nice to meet you! I'm Daniel </h1>
+      <img src={coverImage} className="my-2" style={{ width: "400px", margin: "10px" }} alt="tb-logo" />
       <div className="my-2">
         <p>
           Hello my name is Daniel. I am a Full Stack Web Developer with a background in Biosciences.
@@ -21,4 +22,4 @@ function About() {
   )
 }
 
-export default About
+export default About;
