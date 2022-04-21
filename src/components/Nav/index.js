@@ -1,24 +1,26 @@
-import React, { useEffect } from "react";
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import React from "react";
 
-function Nav(props) {
-  const {
-    pages = [],
-    setCurrentPage,
-    currentPage,
-  } = props;
+function Navbar (props) {
+	const { currentPage, setCurrentPage } = props;
 
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentPage.name);
-  }, [currentPage]);
-
-  return (
-    <nav>
-      <ul className="flex-row">
-
-      </ul>
-    </nav>
-  )
+	return (
+		<nav>
+			<ul className="flex-row mobile-view">
+				<li className={currentPage === "about" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentPage("about")}>About Me</span>
+				</li>
+				<li className={currentPage === "portfolio" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentPage("portfolio")}>Portfolio</span>
+				</li>
+				<li className={currentPage === "contact" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentPage("contact")}>Contact</span>
+				</li>
+				<li className={currentPage === "resume" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentPage("resume")}>Resume</span>
+				</li>
+			</ul>
+		</nav>
+	);
 }
 
-export default Nav;
+export default Navbar;

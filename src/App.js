@@ -29,7 +29,7 @@ function App() {
 
   return (
 		<div>
-			<div>
+			<div className="mobile-header">
 				<Header currentPage={currentPage} setCurrentPage={setCurrentPage}></Header>
 			</div>
 			<div>
