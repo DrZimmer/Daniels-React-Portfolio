@@ -1,39 +1,38 @@
+import "./index.css";
+import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
-import './index.css';
-import { useState } from 'react';
 
 function App() {
+	const [currentTab, setCurrentTab] = useState("about");
 
-  const [currentPage, setCurrentPage] = useState("about");
-
-  const page = () => {
-		switch (currentPage) {
+	// This function checks to see which tab is selected and then generates the appropriate tab.
+	const tab = () => {
+		switch (currentTab) {
 			case "about":
 				return <About />;
 			case "portfolio":
 				return <Portfolio />;
 			case "contact":
 				return <Contact />;
-			case "resume":
-				return <Resume />;
+				case "resume":
+					return <Resume />;
 			default:
 				return null;
 		}
 	};
 
-
-  return (
+	return (
 		<div>
 			<div className="mobile-header">
-				<Header currentPage={currentPage} setCurrentPage={setCurrentPage}></Header>
+				<Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
 			</div>
 			<div>
-				<main>{page()}</main>
+				<main>{tab()}</main>
 			</div>
 			<div>
 				<Footer></Footer>
