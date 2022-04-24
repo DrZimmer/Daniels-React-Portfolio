@@ -226,8 +226,8 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
+.card-image2 {
+  width: 100%;
   text-align: center;
 }
 
@@ -391,4 +391,16 @@ a {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 30px;
   text-align: center;
+}
+
+.page-header {
+  text-decoration: underline;
+  text-align:center;
+}
+
+.card-title {
+  width: 20rem;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-size: 25px;
 }

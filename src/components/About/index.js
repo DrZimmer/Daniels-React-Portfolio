@@ -7,7 +7,7 @@ function About() {
   return (
     <section className="my-1" style={{ textAlign: "center" }}>
       <h1 id="about">Nice to meet you! I'm Daniel </h1>
-      <img src={coverImage} className="my-2" style={{ width: "400px", margin: "10px" }} alt="tb-logo" />
+      <img src={coverImage} className="my-2" style={{ width: "400px", margin: "10px" }} alt="Daniel with daughter, Isla" />
       <div className="my-2">
         <p>
           Hello my name is Daniel. I am a Full Stack Web Developer with a background in Biosciences.
