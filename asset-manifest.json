@@ -1,14 +1,33 @@
 {
   "files": {
-    "main.css": "/Daniels-React-Portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/Daniels-React-Portfolio/static/js/main.780d4f7b.js",
-    "static/media/logo.svg": "/Daniels-React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/Daniels-React-Portfolio/static/css/main.5e1299bb.css",
+    "main.js": "/Daniels-React-Portfolio/static/js/main.8d17172d.js",
+    "static/media/02-hero-bg.jpg": "/Daniels-React-Portfolio/static/media/02-hero-bg.3f4b8a47f17655a4ac17.jpg",
+    "static/media/mystery-of-butler-station-gif.gif": "/Daniels-React-Portfolio/static/media/mystery-of-butler-station-gif.183b1dd3f6f33dc55044.gif",
+    "static/media/02-run-buddy.jpg": "/Daniels-React-Portfolio/static/media/02-run-buddy.b57f2b88349c6b77211d.jpg",
+    "static/media/daddy_daughter.jpg": "/Daniels-React-Portfolio/static/media/daddy_daughter.9660aa9792abb5943513.jpg",
+    "static/media/02-portfolio-1.jpg": "/Daniels-React-Portfolio/static/media/02-portfolio-1.c905c2d12b5c9b7485ff.jpg",
+    "static/media/02-portfolio-2.jpg": "/Daniels-React-Portfolio/static/media/02-portfolio-2.bb6f4d8d88b3569cb0e0.jpg",
+    "static/media/image-from-rawpixel-id-2363304-original.jpg": "/Daniels-React-Portfolio/static/media/image-from-rawpixel-id-2363304-original.66d9faa606701a94249f.jpg",
+    "static/media/02-portfolio-4.jpg": "/Daniels-React-Portfolio/static/media/02-portfolio-4.6490cdfef5afd0538437.jpg",
+    "static/media/2 diff bg - black text.jpg": "/Daniels-React-Portfolio/static/media/2 diff bg - black text.a9c16400d759a93044d8.jpg",
+    "static/media/project_5.jpg": "/Daniels-React-Portfolio/static/media/project_5.51073456141dde0212b1.jpg",
+    "static/media/project_2.jpg": "/Daniels-React-Portfolio/static/media/project_2.72abf93c14a3b81a8749.jpg",
+    "static/media/Resume.pdf": "/Daniels-React-Portfolio/static/media/Resume.b5c3f9b5093119ff2b27.pdf",
+    "static/media/02-portfolio-3.jpg": "/Daniels-React-Portfolio/static/media/02-portfolio-3.5ff0a7600bae7cd50d00.jpg",
+    "static/media/hero_image.jpeg": "/Daniels-React-Portfolio/static/media/hero_image.46e2cf443077e0e0c9df.jpeg",
+    "static/media/project_3.jpg": "/Daniels-React-Portfolio/static/media/project_3.f93f7dc013ca5510a32e.jpg",
+    "static/media/budget.png": "/Daniels-React-Portfolio/static/media/budget.894f61f55f00565399d4.png",
+    "static/media/project_4.jpg": "/Daniels-React-Portfolio/static/media/project_4.b42b28d408831e9b9796.jpg",
+    "static/media/the_dinner_spinner.png": "/Daniels-React-Portfolio/static/media/the_dinner_spinner.39dcf338fb1523f21972.png",
+    "static/media/deep_thoughts.png": "/Daniels-React-Portfolio/static/media/deep_thoughts.3aea0a7702d1e4d5ff1d.png",
+    "static/media/code_quiz.png": "/Daniels-React-Portfolio/static/media/code_quiz.aa6f6941a2cd34b4d58d.png",
     "index.html": "/Daniels-React-Portfolio/index.html",
-    "main.073c9b0a.css.map": "/Daniels-React-Portfolio/static/css/main.073c9b0a.css.map",
-    "main.780d4f7b.js.map": "/Daniels-React-Portfolio/static/js/main.780d4f7b.js.map"
+    "main.5e1299bb.css.map": "/Daniels-React-Portfolio/static/css/main.5e1299bb.css.map",
+    "main.8d17172d.js.map": "/Daniels-React-Portfolio/static/js/main.8d17172d.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.780d4f7b.js"
+    "static/css/main.5e1299bb.css",
+    "static/js/main.8d17172d.js"
   ]
 }
