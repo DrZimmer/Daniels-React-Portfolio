@@ -54,8 +54,11 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <button className='formBtn' data-testid="button" type="submit">Submit</button>
       </form>
+      <div className='PSA'>
+        Contact Submit form functionality coming soon. Please email me at Dayley.Zimmermann@gmail.com or call at 314-941-8058. Or check out any of my social media links below.
+      </div>
     </section>
   );
 }

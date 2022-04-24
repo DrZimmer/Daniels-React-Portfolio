@@ -7,7 +7,7 @@ function Resume() {
 				<h1 className="page-header" style={{ textDecoration:"underline" }}>My Resume</h1>
 			</div>
 			<div className="bottom-spacing" style={{ textAlign: "center" }}>
-                <a target="_blank" rel="noopener noreferrer" href={("https://ucarecdn.com/07e33b70-df75-4245-a0e1-218ad5664ce2/ThomBurtResume.pdf")} >
+                <a target="_blank" rel="noopener noreferrer" href={("https://docs.google.com/document/d/1EqyK6vXgPoohJXSJTNo6rvp_nmr2JToZ64r3bSG3A5g/edit?usp=sharing")} >
 					<h4 style={{ textDecoration:"underline" }}>View my Resume by Clicking here!</h4>
 				</a>
                 <a href={require("../../assets/materials/Resume.pdf")} download>

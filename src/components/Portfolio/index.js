@@ -13,7 +13,7 @@ function Portfolio() {
 		{
 			name: 'Mystery of Butler Station',
 			description:
-				'A podcast for all songwriters, musicians and producers from all over the world!',
+				'A space trivia game built with Canvass',
 			image: 'mystery-of-butler-station-gif.gif',
 			deployed: 'https://mystery-of-butler-station.herokuapp.com/',
 		},
@@ -44,7 +44,7 @@ function Portfolio() {
 		<section>
 			<div className="center">
 				<h1 className="page-header" style={{ textDecoration: "underline", textAlign: "center" }}>My Portfolio</h1>
-			</div>
+			</div >
 			<div>
 				<ul className="flex-row mobile-row">
 					<li className="padding">

@@ -32,11 +32,9 @@ function App() {
 				<Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
 			</div>
 			<div>
-				<main>{tab()}</main>
+				<main> {tab()}</main>
 			</div>
-			<div>
 				<Footer></Footer>
-			</div>
 		</div>
 	);
 }
