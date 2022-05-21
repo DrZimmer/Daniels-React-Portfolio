@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -38,7 +38,7 @@ body {
   letter-spacing: .1em;
   background: var(--primary);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: Arial, Helvetica, sans-serif
 
 }
 
@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
