@@ -4,6 +4,14 @@ import Project from '../Projects';
 function Portfolio() {
 	const projects = [
 		{
+			name: 'Fitness Trainer Buddy',
+			description:
+				'An app that allows you to create new workouts and customize your exercises, nutrition coming soon.',
+			image: 'workoutbuddy.png',
+			deployed: 'https://fitness-trainer-buddy.herokuapp.com/',
+			repo: 'https://github.com/gsd79/Workout-Buddy'
+		},
+		{
 			name: 'Dinner Spinner',
 			description:
 				'An app that gives you a local dinner spot at random and tracks your dinner history.',
