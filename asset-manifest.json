@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Daniels-React-Portfolio/static/css/main.5e1299bb.css",
-    "main.js": "/Daniels-React-Portfolio/static/js/main.8d17172d.js",
+    "main.css": "/Daniels-React-Portfolio/static/css/main.596da577.css",
+    "main.js": "/Daniels-React-Portfolio/static/js/main.cdb0d8fc.js",
     "static/media/02-hero-bg.jpg": "/Daniels-React-Portfolio/static/media/02-hero-bg.3f4b8a47f17655a4ac17.jpg",
     "static/media/mystery-of-butler-station-gif.gif": "/Daniels-React-Portfolio/static/media/mystery-of-butler-station-gif.183b1dd3f6f33dc55044.gif",
     "static/media/02-run-buddy.jpg": "/Daniels-React-Portfolio/static/media/02-run-buddy.b57f2b88349c6b77211d.jpg",
+    "static/media/workoutbuddy.png": "/Daniels-React-Portfolio/static/media/workoutbuddy.b6c882d676d59283c22c.png",
     "static/media/daddy_daughter.jpg": "/Daniels-React-Portfolio/static/media/daddy_daughter.9660aa9792abb5943513.jpg",
     "static/media/02-portfolio-1.jpg": "/Daniels-React-Portfolio/static/media/02-portfolio-1.c905c2d12b5c9b7485ff.jpg",
     "static/media/02-portfolio-2.jpg": "/Daniels-React-Portfolio/static/media/02-portfolio-2.bb6f4d8d88b3569cb0e0.jpg",
@@ -23,11 +24,11 @@
     "static/media/deep_thoughts.png": "/Daniels-React-Portfolio/static/media/deep_thoughts.3aea0a7702d1e4d5ff1d.png",
     "static/media/code_quiz.png": "/Daniels-React-Portfolio/static/media/code_quiz.aa6f6941a2cd34b4d58d.png",
     "index.html": "/Daniels-React-Portfolio/index.html",
-    "main.5e1299bb.css.map": "/Daniels-React-Portfolio/static/css/main.5e1299bb.css.map",
-    "main.8d17172d.js.map": "/Daniels-React-Portfolio/static/js/main.8d17172d.js.map"
+    "main.596da577.css.map": "/Daniels-React-Portfolio/static/css/main.596da577.css.map",
+    "main.cdb0d8fc.js.map": "/Daniels-React-Portfolio/static/js/main.cdb0d8fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e1299bb.css",
-    "static/js/main.8d17172d.js"
+    "static/css/main.596da577.css",
+    "static/js/main.cdb0d8fc.js"
   ]
 }
